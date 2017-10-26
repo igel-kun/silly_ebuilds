@@ -1,0 +1,11 @@
+--- sdsl-lite-2.1.1/CMakeLists.txt	2017-10-25 14:35:08.065870415 +0200
++++ sdsl-lite-2.1.1/CMakeLists.txt	2017-10-25 14:36:12.353868587 +0200
+@@ -106,7 +106,7 @@
+     message(WARNING "git not found. Cloning of submodules will not work.")
+ endif()
+ 
+-add_subdirectory(external)
++#add_subdirectory(external)
+ add_subdirectory(include)
+ add_subdirectory(lib)
+ 
